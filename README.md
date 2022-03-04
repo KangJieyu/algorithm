@@ -8,9 +8,9 @@
 #### binarytree
 二叉树
 * **Node**
-二叉树节点的声明
+节点的声明
 * **ADT**
-二叉查找树
+查找树
 * **ExpressionTree**
 表达式树的创建
 * **RecursiveTraversalTree**
