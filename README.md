@@ -7,10 +7,8 @@
 树
 #### binarytree
 二叉树
-**Node**
-
-二叉树节点的声明
-
+**Node**</br>
+二叉树节点的声明</br>
 **ADT**
 二叉查找树
 **ExpressionTree**
