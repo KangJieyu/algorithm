@@ -10,19 +10,24 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
+        System.out.println(list);
         list.add(10);
-        System.out.println("size " + list.size());
-        Integer remove = list.remove(0);
-        System.out.println("remove " + remove);
-        list.add(10);
-        list.add(11, 1);
-        System.out.println("size " + list.size());
-        System.out.println(list.get(1));
-        Integer setNum = list.set(1, 22);
-        System.out.println("set " + setNum);
-        System.out.println(list.get(1));
-        System.out.println(list.contains(11));
-        System.out.println(list.contains(22));
+        System.out.println("size = " + list.size()+ "\t" + list);
+        list.add(11, 0);
+        System.out.println("size = " + list.size()+ "\t" + list);
+        list.add(12,2);
+        System.out.println("size = " + list.size()+ "\t" + list);
+        list.set(0, 100);
+        System.out.println("size = " + list.size()+ "\t" + list);
+        System.out.println(list.contains(100));
+        list.remove(0);
+        System.out.println("size = " + list.size()+ "\t" + list);
+        System.out.println(list.contains(100));
+        list.remove(2);
+        System.out.println("size = " + list.size()+ "\t" + list);
+        list.set(0, 100);
+        System.out.println("size = " + list.size()+ "\t" + list);
+        System.out.println(list.get(0));
 
 
 

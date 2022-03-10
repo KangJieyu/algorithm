@@ -97,18 +97,13 @@ public class ArrayList<E> implements Collector<E> {
 
     @Override
     public E remove(int index) {
-        // size = 5时
-        // 1 2 3 4 5
-        // 0 1 2 3 4 index
-        // index = 2时
-        // 1 2
         checkBounds(index);
-        // i = 2
         E e = (E) elementData[index];
-        for (int i = index; i < size - 1; i--) {
+        for (int i = index; i < size - 1; i++) {
             elementData[i] = elementData[i + 1];
         }
         size --;
+        elementData[2] = null;
         return e;
     }
 
@@ -180,8 +175,9 @@ public class ArrayList<E> implements Collector<E> {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
-        for (Object e : elementData) {
-            sb.append(e).append(",");
+
+        for (int i = 0; i < size; i++) {
+            sb.append(elementData[i]).append(",");
         }
         if (!"[".equals(sb+"")) {
             return sb.substring(0, sb.length() - 1) + "]";
