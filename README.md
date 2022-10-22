@@ -13,6 +13,8 @@
   https://leetcode.cn/problems/reverse-linked-list/solution/206-by-floating-with-heart-p9pz/
 - 剑指 Offer 24.反转链表
   https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/solution/offer-by-floating-with-heart-4lyv/
+- RotateList LeetBook 中 LC.旋转链表
+  https://leetcode.cn/leetbook/read/linked-list/f00a2/
 ## search
 查找
 ## sort
