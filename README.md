@@ -10,11 +10,10 @@
 链表
 - 剑指 Offer II 021.删除链表的倒数第 n 个结点(leetcode)
 - Leet206.反转链表
-  https://leetcode.cn/problems/reverse-linked-list/solution/206-by-floating-with-heart-p9pz/
 - 剑指 Offer 24.反转链表
-  https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/solution/offer-by-floating-with-heart-4lyv/
 - RotateList LeetBook 中 LC.旋转链表
-  https://leetcode.cn/leetbook/read/linked-list/f00a2/
+- Leet237.删除链表中的节点
+- Leet92.反转链表 II
 ## search
 查找
 ## sort
@@ -23,3 +22,6 @@
 字符串
 ## tree
 树
+## stack
+栈 
+- Leet150 150. 逆波兰表达式求值
